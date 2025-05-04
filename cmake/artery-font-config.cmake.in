@@ -1,0 +1,8 @@
+@PACKAGE_INIT@
+
+include("${CMAKE_CURRENT_LIST_DIR}/artery-font-targets.cmake")
+set(ARTERY_FONT_STANDALONE_AVALIABLE ON)
+
+if(NOT TARGET artery-font-lib)
+    add_library(artery-font-lib ALIAS artery-font::artery-font)
+endif()
