@@ -1,4 +1,6 @@
 
+#pragma once
+
 #include "crc32.h"
 
 namespace artery_font {

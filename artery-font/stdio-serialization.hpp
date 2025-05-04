@@ -1,4 +1,6 @@
 
+#pragma once
+
 #include "stdio-serialization.h"
 
 namespace artery_font {
